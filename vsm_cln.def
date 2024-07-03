@@ -1,0 +1,7 @@
+; vsm_cln.def : Declares the module parameters for the DLL.
+
+LIBRARY      "vsm_cln"
+DESCRIPTION  'vsm_cln Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
